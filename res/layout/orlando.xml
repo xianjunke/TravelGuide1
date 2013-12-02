@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/orlando" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:text="  Orlando  is a city in the U.S. state of Florida and a popular tourist destination. Located in Central Florida, it is the county seat of Orange County and the center of the Greater Orlando metropolitan area. Orlando had a population of 238,300 according to the 2010 census, making it the 77th largest city in the United States. The Greater Orlando metropolitan area has a population of 2,134,411, making it the 26th largest metro area in the United States, the sixth largest metro area in the Southeastern United States, and the third largest metro area in the state of Florida. Orlando is the fifth largest city in Florida, and the state&apos;s largest inland city."
+        android:textSize="25sp" />
+
+</RelativeLayout>

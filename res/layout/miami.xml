@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/miami" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:text="  Miami  is a city located on the Atlantic coast in southeastern Florida and the county seat of Miami-Dade County. The 42nd largest city proper in the United States, with a population of 413,892, it is the principal, central, and most populous city of the Miami metropolitan area, and the most populous metropolis in the Southern United States after Washington, D.C.[7] According to the U.S. Census Bureau, Miami&apos;s metro area is the eighth most populous and fourth-largest urban area in the United States, with a population of around 5.5 million.[8][9]"
+        android:textSize="25sp" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/la" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="61dp"
+        android:text="  Los angeles officially the City of Los Angeles, often known by its initials L.A., is the most populous city in the U.S. state of California and the second-most populous in the United States, after New York City, with a population at the 2010 United States Census of 3,792,621.[7] It has an area of 469 square miles (1,215 km2), and is located in Southern California."
+        android:textSize="25sp" />
+
+</RelativeLayout>
